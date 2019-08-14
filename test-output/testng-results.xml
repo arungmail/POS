@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSutie" duration-ms="8" started-at="2019-08-08T12:43:44Z" finished-at="2019-08-08T12:43:44Z">
+    <groups>
+    </groups>
+    <test name="POS" duration-ms="8" started-at="2019-08-08T12:43:44Z" finished-at="2019-08-08T12:43:44Z">
+      <class name="BasePackage.BaseClass">
+        <test-method status="FAIL" signature="launchAUTApplication()[pri:0, instance:BasePackage.BaseClass@1a968a59]" name="launchAUTApplication" is-config="true" duration-ms="0" started-at="2019-08-08T19:43:39Z" finished-at="2019-08-08T19:43:39Z">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[D:\com.pos\src\main\java\Config\DVR.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: D:\com.pos\src\main\java\Config\DVR.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at BasePackage.DriverClass.getValuesFromPropertiesFile(DriverClass.java:45)
+	at BasePackage.DriverClass.launchBrowser(DriverClass.java:96)
+	at BasePackage.BaseClass.launchAUTApplication(BaseClass.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAUTApplication -->
+        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:BasePackage.BaseClass@1a968a59]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-08-08T19:43:44Z" finished-at="2019-08-08T19:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- BasePackage.BaseClass -->
+    </test> <!-- POS -->
+  </suite> <!-- RegressionSutie -->
+</testng-results>

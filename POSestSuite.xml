@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSutie">
+   <test name="POS" preserve-order="true">
+      <classes>
+        <class name="BasePackage.BaseClass" />
+        <class name="Test.MonthlySubscription" />
+        
+       
+   
+            
+     
+   </classes>
+   
+   </test> 
+</suite>
+
